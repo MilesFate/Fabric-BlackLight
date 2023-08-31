@@ -12,20 +12,33 @@ import shyly.mymod.myMod;
 
 public class ModItems {
 
-    public static final Item Hat = registerItem("hat", new Item(new FabricItemSettings()));
-    public static final Item Jacket = registerItem("jacket", new Item(new FabricItemSettings()));
-    public static final Item Trousers = registerItem("trouser", new Item(new FabricItemSettings()));
-    public static final Item Shoes = registerItem("shoes", new Item(new FabricItemSettings()));
+    public static final Item HAT = registerItem("hat", new Item(new FabricItemSettings()));
+    public static final Item JACKET = registerItem("jacket", new Item(new FabricItemSettings()));
+    public static final Item TROUSER = registerItem("trouser", new Item(new FabricItemSettings()));
+    public static final Item SHOES = registerItem("shoes", new Item(new FabricItemSettings()));
+    public static final Item SWORD = registerItem("sword", new Item(new FabricItemSettings()));
 
+    public static final Item CITRINE = registerItem("citrine", new Item(new FabricItemSettings()));
+    public static final Item RAW_CITRINE = registerItem("raw_citrine", new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(myMod.MOD_ID, name), item);
     }
 
     public static void addItemsToGroup(){
-        addItemsToGroup(ItemGroups.COMBAT, Hat);
-        addItemsToGroup(ItemGroups.COMBAT, Jacket);
-        addItemsToGroup(ItemGroups.COMBAT, Trousers);
-        addItemsToGroup(ItemGroups.COMBAT, Shoes);
+        addItemsToGroup(ItemGroups.COMBAT, HAT);
+        addItemsToGroup(ItemGroups.COMBAT, JACKET);
+        addItemsToGroup(ItemGroups.COMBAT, TROUSER);
+        addItemsToGroup(ItemGroups.COMBAT, SHOES);
+        addItemsToGroup(ItemGroups.COMBAT, SWORD);
+
+        addItemsToGroup(ModItemGroup.DRIP, HAT);
+        addItemsToGroup(ModItemGroup.DRIP, JACKET);
+        addItemsToGroup(ModItemGroup.DRIP, TROUSER);
+        addItemsToGroup(ModItemGroup.DRIP, SHOES);
+        addItemsToGroup(ModItemGroup.DRIP, SWORD);
+
+        addItemsToGroup(ModItemGroup.CITRINE, CITRINE);
+        addItemsToGroup(ModItemGroup.CITRINE, RAW_CITRINE);
     }
 
     public static void addItemsToGroup(ItemGroup group, Item item){

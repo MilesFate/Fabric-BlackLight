@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mymod:item/drip_sword"
+    "layer0": "mymod:item/sword"
   }
 }

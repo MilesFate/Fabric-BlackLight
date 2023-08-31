@@ -1,11 +1,15 @@
 {
-  "item.mymod.citrine": "Citrine",
-  "item.mymod.raw_citrine": "Raw Citrine",
   "item.mymod.hat": "Hat",
   "item.mymod.jacket": "Jacket",
   "item.mymod.trouser": "Trouser",
   "item.mymod.shoes": "Shoes",
-  "item.mymod.sword": "Drip Sword",
+  "item.mymod.sword": "Sword",
+
+  "item.mymod.citrine": "Citrine",
+  "item.mymod.raw_citrine": "Raw Citrine",
+  "block.mymod.citrine_block": "Block of Citrine",
+  "block.mymod.citrine_ore": "Citrine ore",
+  "block.mymod.deepslate_citrine_ore": "Deepslate Citrine Ore",
 
   "itemgroup.citrine": "Citrine",
   "itemgroup.drip": "Drip"

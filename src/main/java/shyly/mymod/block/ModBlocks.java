@@ -23,6 +23,17 @@ import static net.minecraft.registry.Registries.*;
 
 public class ModBlocks {
 
+    public static final Block BLACKLIGHT_BLOCK = registerBlock("blacklight_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.BLACKLIGHT);
+
+    public static final Block BLACKLIGHT_ORE = registerBlock("blacklight_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
+                    UniformIntProvider.create(2, 6)), ModItemGroup.BLACKLIGHT);
+    public static final Block DEEPSLATE_BLACKLIGHT_ORE = registerBlock("deepslate_blacklight_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
+                    UniformIntProvider.create(2, 6)), ModItemGroup.BLACKLIGHT);
+
+
     public static final Block CITRINE_BLOCK = registerBlock("citrine_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.CITRINE);
 

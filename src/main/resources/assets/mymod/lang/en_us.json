@@ -1,16 +1,25 @@
 {
-  "item.mymod.hat": "Hat",
-  "item.mymod.jacket": "Jacket",
-  "item.mymod.trouser": "Trouser",
-  "item.mymod.shoes": "Shoes",
-  "item.mymod.sword": "Sword",
+  "item.mymod.blacklight_hat": "Blacklight Hat",
+  "item.mymod.blacklight_jacket": "Blacklight Jacket",
+  "item.mymod.blacklight_trouser": "Blacklight Trouser",
+  "item.mymod.blacklight_shoes": "Blacklight Shoes",
+  "item.mymod.blacklight_sword": "Blacklight Sword",
+  "item.mymod.blacklight": "Blacklight",
+  "item.mymod.raw_blacklight": "Raw Blacklight",
+
+  "block.mymod.blacklight_block": "Block of Blacklight",
+  "block.mymod.blacklight_ore": "Blacklight ore",
+  "block.mymod.deepslate_blacklight_ore": "Deepslate Blacklight Ore",
+
+  "itemgroup.blacklight": "Blacklight",
+
 
   "item.mymod.citrine": "Citrine",
   "item.mymod.raw_citrine": "Raw Citrine",
+
   "block.mymod.citrine_block": "Block of Citrine",
-  "block.mymod.citrine_ore": "Citrine ore",
+  "block.mymod.citrine_ore": "Citrine Ore",
   "block.mymod.deepslate_citrine_ore": "Deepslate Citrine Ore",
 
-  "itemgroup.citrine": "Citrine",
-  "itemgroup.drip": "Drip"
+  "itemgroup.citrine": "Citrine Item Group"
 }

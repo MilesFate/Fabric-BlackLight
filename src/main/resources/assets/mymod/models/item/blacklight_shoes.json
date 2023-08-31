@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mymod:item/jacket"
+    "layer0": "mymod:item/blacklight_shoes"
   }
 }

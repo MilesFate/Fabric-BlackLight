@@ -12,11 +12,13 @@ import shyly.mymod.myMod;
 
 public class ModItems {
 
-    public static final Item HAT = registerItem("hat", new Item(new FabricItemSettings()));
-    public static final Item JACKET = registerItem("jacket", new Item(new FabricItemSettings()));
-    public static final Item TROUSER = registerItem("trouser", new Item(new FabricItemSettings()));
-    public static final Item SHOES = registerItem("shoes", new Item(new FabricItemSettings()));
-    public static final Item SWORD = registerItem("sword", new Item(new FabricItemSettings()));
+    public static final Item BLACKLIGHT_HAT = registerItem("blacklight_hat", new Item(new FabricItemSettings()));
+    public static final Item BLACKLIGHT_JACKET = registerItem("blacklight_jacket", new Item(new FabricItemSettings()));
+    public static final Item BLACKLIGHT_TROUSER = registerItem("blacklight_trouser", new Item(new FabricItemSettings()));
+    public static final Item BLACKLIGHT_SHOES = registerItem("blacklight_shoes", new Item(new FabricItemSettings()));
+    public static final Item BLACKLIGHT_SWORD = registerItem("blacklight_sword", new Item(new FabricItemSettings()));
+    public static final Item BLACKLIGHT = registerItem("blacklight", new Item(new FabricItemSettings()));
+    public static final Item RAW_BLACKLIGHT = registerItem("raw_blacklight", new Item(new FabricItemSettings()));
 
     public static final Item CITRINE = registerItem("citrine", new Item(new FabricItemSettings()));
     public static final Item RAW_CITRINE = registerItem("raw_citrine", new Item(new FabricItemSettings()));
@@ -25,20 +27,27 @@ public class ModItems {
     }
 
     public static void addItemsToGroup(){
-        addItemsToGroup(ItemGroups.COMBAT, HAT);
-        addItemsToGroup(ItemGroups.COMBAT, JACKET);
-        addItemsToGroup(ItemGroups.COMBAT, TROUSER);
-        addItemsToGroup(ItemGroups.COMBAT, SHOES);
-        addItemsToGroup(ItemGroups.COMBAT, SWORD);
+        addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_HAT);
+        addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_JACKET);
+        addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_TROUSER);
+        addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_SHOES);
+        addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_SWORD);
 
-        addItemsToGroup(ModItemGroup.DRIP, HAT);
-        addItemsToGroup(ModItemGroup.DRIP, JACKET);
-        addItemsToGroup(ModItemGroup.DRIP, TROUSER);
-        addItemsToGroup(ModItemGroup.DRIP, SHOES);
-        addItemsToGroup(ModItemGroup.DRIP, SWORD);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_HAT);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_JACKET);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_TROUSER);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_SHOES);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_SWORD);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, RAW_BLACKLIGHT);
+
+
+        addItemsToGroup(ItemGroups.INGREDIENTS, CITRINE);
+        addItemsToGroup(ItemGroups.INGREDIENTS, RAW_CITRINE);
 
         addItemsToGroup(ModItemGroup.CITRINE, CITRINE);
         addItemsToGroup(ModItemGroup.CITRINE, RAW_CITRINE);
+
     }
 
     public static void addItemsToGroup(ItemGroup group, Item item){

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mymod:red_maple_log",
+    "mymod:red_maple_wood",
+    "mymod:stripped_red_maple_log",
+    "mymod:stripped_red_maple_wood"
+  ]
+}

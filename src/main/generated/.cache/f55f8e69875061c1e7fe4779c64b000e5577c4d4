@@ -1,3 +1,7 @@
-// 1.19.3	2023-09-01T01:44:47.2536002	myMod/mymod
+// 1.19.3	2023-09-02T11:42:00.8896007	myMod/mymod
+d5acb057ce7ed113d0966bd0a60b12c9872f9b42 data\mymod\worldgen\placed_feature\citrine_placed.json
 acc4016136188f5fb836715ce28c821ed6aa85e9 data\mymod\worldgen\configured_feature\red_maple.json
+4e18dbc4a9b5c049a8bc787950f51cf9a2766015 data\mymod\worldgen\placed_feature\blacklight_ore_placed.json
 ea7db03f68e55b8b09c64b699f643cc770c7ddf0 data\mymod\worldgen\placed_feature\red_maple_placed.json
+29e68e3c1bfb530ffd4705d519bc0bfe1b8aa579 data\mymod\worldgen\configured_feature\citrine_ore.json
+bbcbad5b4173a43caa0830e93e5965b66fe278f5 data\mymod\worldgen\configured_feature\blacklight_ore.json

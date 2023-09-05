@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "mymod:blacklight_slurry"
-  }
+  },
+  "show_notification": true
 }

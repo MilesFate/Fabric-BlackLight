@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "mymod:blacklight_trouser"
-  }
+  },
+  "show_notification": true
 }

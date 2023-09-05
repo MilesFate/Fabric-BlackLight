@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.SmeltingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import shyly.mymod.Item.ModItems;
@@ -21,13 +20,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerSmelting(exporter, List.of(ModItems.RAW_CITRINE), RecipeCategory.MISC, ModItems.CITRINE,0.7f,200,"citrine");
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CITRINE, RecipeCategory.DECORATIONS, ModBlocks.CITRINE_BLOCK);
 
         offerSmelting(exporter, List.of(ModItems.RAW_BLACKLIGHT), RecipeCategory.MISC, ModItems.BLACKLIGHT,0.7f,200,"blacklight");
         offerBlasting(exporter, List.of(ModItems.RAW_BLACKLIGHT), RecipeCategory.MISC, ModItems.BLACKLIGHT,0.7f,100,"blacklight");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BLACKLIGHT, RecipeCategory.DECORATIONS, ModBlocks.BLACKLIGHT_BLOCK);
 
+        /*
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_SWORD)
                 .pattern("X")
                 .pattern("X")
@@ -37,6 +35,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModBlocks.BLACKLIGHT_BLOCK),
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.BLACKLIGHT_BLOCK))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SWORD)));
+                */
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_HAT)
                 .pattern("XXX")

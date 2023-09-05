@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "mymod:citrine_ore",
-    "mymod:citrine_block",
-    "mymod:deepslate_citrine_ore"
+
   ]
 }

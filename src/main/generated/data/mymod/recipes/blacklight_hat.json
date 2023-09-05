@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "mymod:blacklight_hat"
-  }
+  },
+  "show_notification": true
 }

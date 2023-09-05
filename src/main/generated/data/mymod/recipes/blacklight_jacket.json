@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "mymod:blacklight_jacket"
-  }
+  },
+  "show_notification": true
 }

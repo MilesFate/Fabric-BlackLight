@@ -8,9 +8,6 @@ import shyly.mymod.world.ModPlacedFeatures;
 public class ModOreGeneration {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
-                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.CITRINE_ORE_PLACED_KEY);
-
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.BLACKLIGHT_ORE_PLACED_KEY);
     }
 }

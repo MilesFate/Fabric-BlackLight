@@ -13,22 +13,5 @@
   "block.mymod.blacklight_ore": "Blacklight ore",
   "block.mymod.deepslate_blacklight_ore": "Deepslate Blacklight Ore",
 
-  "itemgroup.blacklight": "Blacklight",
-
-
-  "item.mymod.citrine": "Citrine",
-  "item.mymod.raw_citrine": "Raw Citrine",
-
-  "block.mymod.citrine_block": "Block of Citrine",
-  "block.mymod.citrine_ore": "Citrine Ore",
-  "block.mymod.deepslate_citrine_ore": "Deepslate Citrine Ore",
-  "block.mymod.red_maple_log": "Red Maple Log",
-  "block.mymod.red_maple_wood": "Red Maple Wood",
-  "block.mymod.stripped_red_maple_log": "Stripped Red Maple Log",
-  "block.mymod.stripped_red_maple_wood": "Stripped Red Maple Wood",
-  "block.mymod.red_maple_planks": "Red Maple Planks",
-  "block.mymod.red_maple_leaves": "Red Maple Leaves",
-  "block.mymod.red_maple_sapling": "Red Maple Sapling",
-
-  "itemgroup.citrine": "Citrine Item Group"
+  "itemgroup.blacklight": "Blacklight"
 }

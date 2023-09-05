@@ -3,9 +3,6 @@
   "values": [
     "mymod:blacklight_ore",
     "mymod:blacklight_block",
-    "mymod:deepslate_blacklight_ore",
-    "mymod:citrine_ore",
-    "mymod:citrine_block",
-    "mymod:deepslate_citrine_ore"
+    "mymod:deepslate_blacklight_ore"
   ]
 }

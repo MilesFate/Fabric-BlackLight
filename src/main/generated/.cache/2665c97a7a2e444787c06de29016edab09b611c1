@@ -1,7 +1,4 @@
-// 1.19.3	2023-09-04T21:46:42.5823806	myMod/Block Loot Tables
-a6948cea0804ffd09fed934ae05a5665fdd4a494 data\mymod\loot_tables\blocks\citrine_block.json
-28d670d155f7e99fafb221a5ff2d671582dfdb2b data\mymod\loot_tables\blocks\deepslate_citrine_ore.json
+// 1.19.4	2023-09-05T14:56:53.6584504	myMod/Block Loot Tables
 f064ec50ea816c5eda226440ba8a5e41eae2d860 data\mymod\loot_tables\blocks\deepslate_blacklight_ore.json
-126c7de2c2d7d9076c319e387e2c9cb8ff78ad7e data\mymod\loot_tables\blocks\citrine_ore.json
 7303aff15509584a396ca37916741934b187395f data\mymod\loot_tables\blocks\blacklight_block.json
 a76ac90fb4e9b75e52d3f43ca60b65fd3cedd6de data\mymod\loot_tables\blocks\blacklight_ore.json

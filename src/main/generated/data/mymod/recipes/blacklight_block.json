@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "mymod:blacklight_block"
-  }
+  },
+  "show_notification": true
 }

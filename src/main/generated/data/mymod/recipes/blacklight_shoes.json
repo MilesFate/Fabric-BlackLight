@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "mymod:blacklight_shoes"
-  }
+  },
+  "show_notification": true
 }

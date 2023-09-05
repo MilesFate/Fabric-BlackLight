@@ -19,6 +19,8 @@ public class ModItems {
     public static final Item BLACKLIGHT_SWORD = registerItem("blacklight_sword", new Item(new FabricItemSettings()));
     public static final Item BLACKLIGHT = registerItem("blacklight", new Item(new FabricItemSettings()));
     public static final Item RAW_BLACKLIGHT = registerItem("raw_blacklight", new Item(new FabricItemSettings()));
+    public static final Item FIGGY_PUDDING = registerItem("figgy_pudding", new Item(new FabricItemSettings()));
+    public static final Item BLACKLIGHT_SLURRY = registerItem("blacklight_slurry", new Item(new FabricItemSettings()));
 
     public static final Item CITRINE = registerItem("citrine", new Item(new FabricItemSettings()));
     public static final Item RAW_CITRINE = registerItem("raw_citrine", new Item(new FabricItemSettings()));
@@ -40,6 +42,8 @@ public class ModItems {
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_SWORD);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, RAW_BLACKLIGHT);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, FIGGY_PUDDING);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_SLURRY);
 
 
         addItemsToGroup(ItemGroups.INGREDIENTS, CITRINE);

@@ -45,5 +45,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLACKLIGHT_TROUSER, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLACKLIGHT_SHOES, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLACKLIGHT_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIGGY_PUDDING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACKLIGHT_SLURRY, Models.GENERATED);
     }
 }

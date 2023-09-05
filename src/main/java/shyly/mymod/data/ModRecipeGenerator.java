@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.SmeltingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import shyly.mymod.Item.ModItems;
@@ -70,5 +71,17 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
                         FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SHOES)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.BLACKLIGHT_SLURRY)
+                .pattern("XXX")
+                .pattern("XBX")
+                .pattern("XXX")
+                .input('X', ModItems.BLACKLIGHT)
+                .input('B', Items.WATER_BUCKET)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SLURRY)));
+
+        offerSmelting(exporter, List.of(ModItems.BLACKLIGHT_SLURRY), RecipeCategory.MISC, ModItems.FIGGY_PUDDING,0.7f,200,"figgy_puddying");
     }
 }

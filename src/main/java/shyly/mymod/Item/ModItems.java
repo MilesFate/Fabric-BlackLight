@@ -2,15 +2,14 @@ package shyly.mymod.Item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import shyly.mymod.Item.custom.BlacklightArmorItem;
+import shyly.mymod.Item.custom.BlacklightSwordItem;
 import shyly.mymod.Item.materials.ModArmorMaterials;
+import shyly.mymod.Item.materials.ModSwordMaterials;
 import shyly.mymod.myMod;
 
 public class ModItems {
@@ -19,7 +18,7 @@ public class ModItems {
     public static final Item BLACKLIGHT_JACKET = registerItem("blacklight_jacket", new BlacklightArmorItem(ModArmorMaterials.BLACKLIGHT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item BLACKLIGHT_TROUSER = registerItem("blacklight_trouser", new BlacklightArmorItem(ModArmorMaterials.BLACKLIGHT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item BLACKLIGHT_SHOES = registerItem("blacklight_shoes", new BlacklightArmorItem(ModArmorMaterials.BLACKLIGHT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    //public static final ToolItem BLACKLIGHT_SWORD = registerItem("blacklight_sword", new SwordItem(ModToolMaterials.INSTANCE,12,10, new FabricItemSettings());
+    public static final Item BLACKLIGHT_SWORD = registerItem("blacklight_sword", new SwordItem(ModSwordMaterials.INSTANCE, 5, 3f, new FabricItemSettings()));
     public static final Item BLACKLIGHT = registerItem("blacklight", new Item(new FabricItemSettings()));
     public static final Item RAW_BLACKLIGHT = registerItem("raw_blacklight", new Item(new FabricItemSettings()));
     public static final Item FIGGY_PUDDING = registerItem("figgy_pudding", new Item(new FabricItemSettings()));
@@ -34,13 +33,13 @@ public class ModItems {
         addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_JACKET);
         addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_TROUSER);
         addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_SHOES);
-        //addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_SWORD);
+        addItemsToGroup(ItemGroups.COMBAT, BLACKLIGHT_SWORD);
 
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_HAT);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_JACKET);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_TROUSER);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_SHOES);
-        //addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_SWORD);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_SWORD);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, RAW_BLACKLIGHT);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, FIGGY_PUDDING);

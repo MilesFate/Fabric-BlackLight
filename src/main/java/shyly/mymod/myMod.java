@@ -1,6 +1,7 @@
 package shyly.mymod;
 
 import net.fabricmc.api.ModInitializer;
+import org.apache.http.config.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import shyly.mymod.Item.ModItemGroup;
@@ -19,5 +20,6 @@ public class myMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModWorldGeneration.generateModWorldGen();
+
 	}
 }

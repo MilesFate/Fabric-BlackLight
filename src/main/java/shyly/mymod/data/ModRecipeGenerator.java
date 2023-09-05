@@ -25,7 +25,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModItems.RAW_BLACKLIGHT), RecipeCategory.MISC, ModItems.BLACKLIGHT,0.7f,100,"blacklight");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BLACKLIGHT, RecipeCategory.DECORATIONS, ModBlocks.BLACKLIGHT_BLOCK);
 
-        /*
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_SWORD)
                 .pattern("X")
                 .pattern("X")
@@ -35,7 +35,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModBlocks.BLACKLIGHT_BLOCK),
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.BLACKLIGHT_BLOCK))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SWORD)));
-                */
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_HAT)
                 .pattern("XXX")

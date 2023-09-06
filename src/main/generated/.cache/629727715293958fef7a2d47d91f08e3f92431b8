@@ -1,19 +1,20 @@
-// 1.19.4	2023-09-05T15:42:35.2621765	myMod/Model Definitions
+// 1.19.4	2023-09-06T16:21:46.2870577	myMod/Model Definitions
 888d7236d88b6677580f788c017298dc0bef7cf5 assets\mymod\models\item\blacklight.json
 a9e55f2d66e82190d63627595127177529d4f97b assets\mymod\models\block\blacklight_block.json
 ba3334b3b213e4d95990b509247a91b0f9a71a37 assets\mymod\models\item\blacklight_shoes.json
 e35f23cc0e817937e79fe6c8d52b39f02088e8ce assets\mymod\models\item\deepslate_blacklight_ore.json
 9f7193a3edc001de90d12ebffa04ffe83059bdb7 assets\mymod\models\item\blacklight_hat.json
 fb5c4f26e155de1494139c3da9778d55dc444c20 assets\mymod\models\item\blacklight_slurry.json
+9d3389b93c5e88f9805f804a6cbebfc98e20a6ef assets\mymod\models\item\blacklight_pickaxe.json
 ff05b82d446c253b1c1bfdd9eddfad4ba8042108 assets\mymod\blockstates\blacklight_ore.json
 367b4ebf5ac2203ade546c5f73b1deba9dc8823f assets\mymod\models\item\blacklight_sword.json
 9d3f352a43b9b2049d5d87c93bc7dddb9a99289f assets\mymod\models\block\blacklight_ore.json
 c1c893edc6cf0b0afdb3b4d8f393d00f144c9883 assets\mymod\models\block\deepslate_blacklight_ore.json
 b50732a050855ac4b74b5f8dd2d59e9395ba8c44 assets\mymod\models\item\figgy_pudding.json
 c99655e9bfacdd4a179de1facebdc7056dc179eb assets\mymod\models\item\blacklight_ore.json
-073eef220390fb759d68ce6fa595026725d4f7f3 assets\mymod\models\item\blacklight_jacket.json
 00b6a2ba2ec7082f7abd46e05a95b6b1225a257b assets\mymod\blockstates\deepslate_blacklight_ore.json
-e834d4ae241b93997380ec241286817fc720ae30 assets\mymod\models\item\blacklight_block.json
+073eef220390fb759d68ce6fa595026725d4f7f3 assets\mymod\models\item\blacklight_jacket.json
 448ac859021011f34c3c4dade75b8c5933618cec assets\mymod\models\item\raw_blacklight.json
+e834d4ae241b93997380ec241286817fc720ae30 assets\mymod\models\item\blacklight_block.json
 bb2f33d7e1f5077eb8c63a44e4606aa4d5202e82 assets\mymod\blockstates\blacklight_block.json
 f25c1494101cf9462d55dee2cac0ce019290fa40 assets\mymod\models\item\blacklight_trouser.json

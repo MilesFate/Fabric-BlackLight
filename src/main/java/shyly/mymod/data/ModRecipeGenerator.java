@@ -82,5 +82,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SLURRY)));
 
         offerSmelting(exporter, List.of(ModItems.BLACKLIGHT_SLURRY), RecipeCategory.MISC, ModItems.FIGGY_PUDDING,0.7f,200,"figgy_puddying");
+
     }
 }

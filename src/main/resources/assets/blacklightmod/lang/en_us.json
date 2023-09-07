@@ -1,0 +1,17 @@
+{
+  "item.blacklightmod.blacklight_hat": "Blacklight Hat",
+  "item.blacklightmod.blacklight_jacket": "Blacklight Jacket",
+  "item.blacklightmod.blacklight_trouser": "Blacklight Trouser",
+  "item.blacklightmod.blacklight_shoes": "Blacklight Shoes",
+  "item.blacklightmod.blacklight_sword": "Blacklight Sword",
+  "item.blacklightmod.blacklight": "Blacklight",
+  "item.blacklightmod.raw_blacklight": "Raw Blacklight",
+  "item.blacklightmod.figgy_pudding": "Figgy Pudding",
+  "item.blacklightmod.blacklight_slurry": "Blacklight Slurry",
+
+  "block.blacklightmod.blacklight_block": "Block of Blacklight",
+  "block.blacklightmod.blacklight_ore": "Blacklight ore",
+  "block.blacklightmod.deepslate_blacklight_ore": "Deepslate Blacklight Ore",
+
+  "itemgroup.blacklight": "Blacklight"
+}

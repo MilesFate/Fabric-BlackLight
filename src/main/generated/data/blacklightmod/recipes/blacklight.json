@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "blacklightmod:blacklight_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "blacklightmod:blacklight"
+  }
+}

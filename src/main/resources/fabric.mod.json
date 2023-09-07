@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "mymod",
+	"id": "blacklightmod",
 	"version": "${version}",
-	"name": "myMod",
+	"name": "BlackLightMod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"shyly"
@@ -12,21 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/mymod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"shyly.mymod.myMod"
+			"shyly.blacklightmod.BlackLightMod"
 		],
 		"client": [
-			"shyly.mymod.myModClient"
+			"shyly.blacklightmod.BlackLightModClient"
 		],
 		"fabric-datagen": [
-			"shyly.mymod.myModDataGenerator"
+			"shyly.blacklightmod.BlackLightModDataGenerator"
 		]
 	},
 	"mixins": [
-		"mymod.mixins.json"
+		"blacklightmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mymod:blacklight_ore",
-    "mymod:blacklight_block",
-    "mymod:deepslate_blacklight_ore"
+    "blacklightmod:blacklight_ore",
+    "blacklightmod:blacklight_block",
+    "blacklightmod:deepslate_blacklight_ore"
   ]
 }

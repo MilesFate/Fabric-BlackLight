@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "X": {
+      "item": "blacklightmod:blacklight"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XBX",
+    "XXX"
+  ],
+  "result": {
+    "item": "blacklightmod:blacklight_slurry"
+  },
+  "show_notification": true
+}

@@ -12,7 +12,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups(){
 
-        BLACKLIGHT = FabricItemGroup.builder(new Identifier(BlackLightMod.MOD_ID, "drip"))
+        BLACKLIGHT = FabricItemGroup.builder(new Identifier(BlackLightMod.MOD_ID, "blacklight"))
                 .displayName(Text.translatable("itemgroup.blacklight"))
                 .icon(()-> new ItemStack(ModItems.BLACKLIGHT)).build();
     }

@@ -11,8 +11,8 @@ import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
-import shyly.blacklightmod.block.ModBlocks;
 import shyly.blacklightmod.BlackLightMod;
+import shyly.blacklightmod.block.ModBlocks;
 
 import java.util.List;
 

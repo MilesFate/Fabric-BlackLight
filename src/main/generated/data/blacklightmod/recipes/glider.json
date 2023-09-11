@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "blacklightmod:figgy_pudding"
+    },
+    "X": {
+      "item": "minecraft:crossbow"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "result": {
+    "item": "blacklightmod:glider"
+  },
+  "show_notification": true
+}

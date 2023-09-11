@@ -7,7 +7,7 @@ import shyly.blacklightmod.Item.ModItems;
 import java.util.function.Supplier;
 
 public enum ModToolsMaterials implements ToolMaterial {
-    BLACKLGHT(5, 650, 21.5f, 3.5f, 26,
+    BLACKLGHT(5, 650, 21.5f, 3.5f, 50,
             () -> Ingredient.ofItems(ModItems.BLACKLIGHT));
     private final int miningLevel;
     private final int itemDurability;

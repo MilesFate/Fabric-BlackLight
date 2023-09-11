@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
     "S": {
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "blacklightmod:blacklight_block"
+      "item": "blacklightmod:blacklight"
     }
   },
   "pattern": [
-    "X",
-    "X",
-    "S"
+    "XX ",
+    "XS ",
+    " S "
   ],
   "result": {
-    "item": "blacklightmod:blacklight_sword"
+    "item": "blacklightmod:blacklight_axe"
   },
   "show_notification": true
 }

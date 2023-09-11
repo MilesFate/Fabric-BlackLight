@@ -1,0 +1,18 @@
+{
+  "glider": {
+    "sounds": [
+      {
+        "name": "blacklightmod:glider",
+        "stream": true
+      }
+    ]
+  },
+  "drututt": {
+    "sounds": [
+      {
+        "name": "blacklightmod:drututt",
+        "stream": true
+      }
+    ]
+  }
+}

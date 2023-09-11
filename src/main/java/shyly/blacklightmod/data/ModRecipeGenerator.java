@@ -23,19 +23,18 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerSmelting(exporter, List.of(ModItems.RAW_BLACKLIGHT), RecipeCategory.MISC, ModItems.BLACKLIGHT,0.7f,200,"blacklight");
         offerBlasting(exporter, List.of(ModItems.RAW_BLACKLIGHT), RecipeCategory.MISC, ModItems.BLACKLIGHT,0.7f,100,"blacklight");
+        offerSmelting(exporter, List.of(ModItems.BLACKLIGHT_SLURRY), RecipeCategory.MISC, ModItems.FIGGY_PUDDING,0.7f,200,"figgy_puddying");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BLACKLIGHT, RecipeCategory.DECORATIONS, ModBlocks.BLACKLIGHT_BLOCK);
 
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_SWORD)
-                .pattern("X")
-                .pattern("X")
-                .pattern("#")
-                .input('X', ModBlocks.BLACKLIGHT_BLOCK)
-                .input('#', Items.STICK)
-                .criterion(FabricRecipeProvider.hasItem(ModBlocks.BLACKLIGHT_BLOCK),
-                        FabricRecipeProvider.conditionsFromItem(ModBlocks.BLACKLIGHT_BLOCK))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SWORD)));
-
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.GLIDER)
+                .pattern("XXX")
+                .pattern("XCX")
+                .pattern("XXX")
+                .input('X', Items.CROSSBOW)
+                .input('C',ModItems.FIGGY_PUDDING)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.GLIDER)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_HAT)
                 .pattern("XXX")
@@ -81,7 +80,45 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SLURRY)));
 
-        offerSmelting(exporter, List.of(ModItems.BLACKLIGHT_SLURRY), RecipeCategory.MISC, ModItems.FIGGY_PUDDING,0.7f,200,"figgy_puddying");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_SWORD)
+                .pattern("X")
+                .pattern("X")
+                .pattern("S")
+                .input('X', ModBlocks.BLACKLIGHT_BLOCK)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.BLACKLIGHT_BLOCK),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.BLACKLIGHT_BLOCK))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.BLACKLIGHT_SHOVEL)
+                .pattern(" X ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('X', ModItems.BLACKLIGHT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_SHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.BLACKLIGHT_HOE)
+                .pattern("XX ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('X', ModItems.BLACKLIGHT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_HOE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.BLACKLIGHT_AXE)
+                .pattern("XX ")
+                .pattern("XS ")
+                .pattern(" S ")
+                .input('X', ModItems.BLACKLIGHT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.BLACKLIGHT_AXE)));
 
     }
 }

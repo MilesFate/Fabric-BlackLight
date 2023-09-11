@@ -35,6 +35,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLACKLIGHT_SWORD, Models.GENERATED);
         itemModelGenerator.register(ModItems.FIGGY_PUDDING, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLACKLIGHT_SLURRY, Models.GENERATED);
-
+        itemModelGenerator.register(ModItems.BLACKLIGHT_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACKLIGHT_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACKLIGHT_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACKLIGHT_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GLIDER,Models.GENERATED);
+        itemModelGenerator.register(ModItems.DRUTUTT,Models.GENERATED);
     }
 }

@@ -14,5 +14,12 @@
         "stream": true
       }
     ]
+  },"rest": {
+    "sounds": [
+      {
+        "name": "blacklightmod:rest",
+        "stream": true
+      }
+    ]
   }
 }

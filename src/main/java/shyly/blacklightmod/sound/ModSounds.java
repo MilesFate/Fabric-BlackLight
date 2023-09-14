@@ -10,6 +10,7 @@ public class ModSounds {
 
     public static SoundEvent GLIDER = registerSoundEvent("glider");
     public static SoundEvent DRUTUTT = registerSoundEvent("drututt");
+    public static SoundEvent REST = registerSoundEvent("rest");
 
 
     private static SoundEvent registerSoundEvent(String name){

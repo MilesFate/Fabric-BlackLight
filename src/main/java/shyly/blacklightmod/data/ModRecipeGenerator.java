@@ -30,11 +30,31 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .pattern("XXX")
                 .pattern("XCX")
                 .pattern("XXX")
-                .input('X', Items.CROSSBOW)
-                .input('C',ModItems.FIGGY_PUDDING)
+                .input('C', Items.CROSSBOW)
+                .input('X',ModItems.FIGGY_PUDDING)
                 .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
                         FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.GLIDER)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.DRUTUTT)
+                .pattern("XXX")
+                .pattern("XSX")
+                .pattern("XXX")
+                .input('S', Items.IRON_SWORD)
+                .input('X',ModItems.FIGGY_PUDDING)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.DRUTUTT)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.REST)
+                .pattern("XXX")
+                .pattern("XcX")
+                .pattern("XXX")
+                .input('C', Items.CROSSBOW)
+                .input('X',ModItems.FIGGY_PUDDING)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.REST)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModItems.BLACKLIGHT_HAT)
                 .pattern("XXX")

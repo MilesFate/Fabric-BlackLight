@@ -30,7 +30,8 @@ public class ModItems {
     public static final Item BLACKLIGHT_AXE = registerItem("blacklight_axe", new BlackLightAxeItem(ModToolsMaterials.BLACKLGHT, 5, 3f, new FabricItemSettings()));
     public static final Item BLACKLIGHT_PICKAXE = registerItem("blacklight_pickaxe", new BlackLightPickaxeItem(ModToolsMaterials.BLACKLGHT, 1, 3f, new FabricItemSettings()));
     public static final Item GLIDER = registerItem("glider", new MusicDiscItem(6, ModSounds.GLIDER, new FabricItemSettings().maxCount(1),132));
-    public static final Item DRUTUTT = registerItem("drututt", new MusicDiscItem(6, ModSounds.DRUTUTT, new FabricItemSettings().maxCount(1),132));
+    public static final Item DRUTUTT = registerItem("drututt", new MusicDiscItem(6, ModSounds.DRUTUTT, new FabricItemSettings().maxCount(1),208));
+    public static final Item REST = registerItem("rest", new MusicDiscItem(6, ModSounds.REST, new FabricItemSettings().maxCount(1),153));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(BlackLightMod.MOD_ID, name), item);
     }
@@ -51,6 +52,7 @@ public class ModItems {
         addItemsToGroup(ModItemGroup.BLACKLIGHT, BLACKLIGHT_PICKAXE);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, GLIDER);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, DRUTUTT);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, REST);
     }
 
     public static void addItemsToGroup(ItemGroup group, Item item){

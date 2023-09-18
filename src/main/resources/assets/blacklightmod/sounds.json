@@ -21,5 +21,12 @@
         "stream": true
       }
     ]
+  },"thefeels": {
+    "sounds": [
+      {
+        "name": "blacklightmod:thefeels",
+        "stream": true
+      }
+    ]
   }
 }

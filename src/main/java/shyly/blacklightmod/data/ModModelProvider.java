@@ -41,5 +41,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLACKLIGHT_PICKAXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLIDER,Models.GENERATED);
         itemModelGenerator.register(ModItems.DRUTUTT,Models.GENERATED);
+        itemModelGenerator.register(ModItems.REST,Models.GENERATED);
+        itemModelGenerator.register(ModItems.THEFEELS,Models.GENERATED);
     }
 }

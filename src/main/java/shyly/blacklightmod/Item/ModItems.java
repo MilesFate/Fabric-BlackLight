@@ -32,6 +32,7 @@ public class ModItems {
     public static final Item GLIDER = registerItem("glider", new MusicDiscItem(6, ModSounds.GLIDER, new FabricItemSettings().maxCount(1),132));
     public static final Item DRUTUTT = registerItem("drututt", new MusicDiscItem(6, ModSounds.DRUTUTT, new FabricItemSettings().maxCount(1),208));
     public static final Item REST = registerItem("rest", new MusicDiscItem(6, ModSounds.REST, new FabricItemSettings().maxCount(1),153));
+    public static final Item THEFEELS = registerItem("thefeels", new MusicDiscItem(6, ModSounds.THEFEELS, new FabricItemSettings().maxCount(1),230));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(BlackLightMod.MOD_ID, name), item);
     }
@@ -53,6 +54,7 @@ public class ModItems {
         addItemsToGroup(ModItemGroup.BLACKLIGHT, GLIDER);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, DRUTUTT);
         addItemsToGroup(ModItemGroup.BLACKLIGHT, REST);
+        addItemsToGroup(ModItemGroup.BLACKLIGHT, THEFEELS);
     }
 
     public static void addItemsToGroup(ItemGroup group, Item item){

@@ -36,6 +36,16 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.GLIDER)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.THEFEELS)
+                .pattern("XXX")
+                .pattern("XCX")
+                .pattern("XXX")
+                .input('C', Items.CARROT)
+                .input('X',ModItems.FIGGY_PUDDING)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.BLACKLIGHT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.BLACKLIGHT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.THEFEELS)));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.DRUTUTT)
                 .pattern("XXX")
                 .pattern("XSX")
@@ -48,7 +58,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.REST)
                 .pattern("XXX")
-                .pattern("XcX")
+                .pattern("XCX")
                 .pattern("XXX")
                 .input('C', Items.CROSSBOW)
                 .input('X',ModItems.FIGGY_PUDDING)

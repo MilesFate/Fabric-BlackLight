@@ -12,6 +12,7 @@ public class ModSounds {
     public static SoundEvent DRUTUTT = registerSoundEvent("drututt");
     public static SoundEvent REST = registerSoundEvent("rest");
 
+    public static SoundEvent THEFEELS = registerSoundEvent("thefeels");
 
     private static SoundEvent registerSoundEvent(String name){
         Identifier id = new Identifier(BlackLightMod.MOD_ID, name);
